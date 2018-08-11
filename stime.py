@@ -9,7 +9,7 @@ print (b.select('.pray-times .a-link-white')[2].getText())
 print (b.select('.pray-times .a-link-white')[3].getText())
 print (b.select('.pray-times .a-link-white')[4].getText())
 print (b.select('.pray-times .a-link-white')[5].getText())
-
+print ("\n")
 
 # `.pray-times
 # .a-link-white
