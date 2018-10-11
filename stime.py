@@ -20,7 +20,7 @@ print ("\n")
 
 
 
-
+// this tis comment 
 
 
 # url = "http://www.old.islom.uz/azon/gettable.php?GMT=26&type=1&alphatype=3&bgcolor=FFFFFF&background=&bordercolor=666666&bordergcolor1=FFFFFF&bordergcolor2=CCCCCC&titlebg=999999&titlecolor=FFFFFF&fontcolor=000000&fontsize=11"
