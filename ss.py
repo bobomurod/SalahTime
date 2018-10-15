@@ -4,7 +4,7 @@ import requests
 url = 'https://www.islom.uz/'
 r = requests.get(url)
 soup = BeautifulSoup(r.text, 'html.parser')
-path = '/home/ulugbek/python/SalahTime/'
+path = '~'
 
 namaazNames = soup.select('div.p_v')
 namaazNames = [namaazName.text for namaazName in namaazNames]
