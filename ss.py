@@ -5,8 +5,12 @@ import os
 url = 'https://www.islom.uz/'
 r = requests.get(url)
 soup = BeautifulSoup(r.text, 'html.parser')
+<<<<<<< HEAD
 path = ''
 
+=======
+path = '~'
+>>>>>>> b04e9482ee969d70ea5ecfc62457812619165a79
 
 namaazNames = soup.select('div.p_v')
 namaazNames = [namaazName.text for namaazName in namaazNames]
